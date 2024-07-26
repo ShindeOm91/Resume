@@ -1,0 +1,48 @@
+/* General styles for the section */
+#work-experience-section {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 20px;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.column-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Styles for the heading */
+.column h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styles for the job title and duration */
+.column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.column p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 768px) {
+    #work-experience-section {
+        flex-direction: column;
+    }
+}

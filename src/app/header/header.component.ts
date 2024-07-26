@@ -11,6 +11,7 @@ export class HeaderComponent {
   @Output() contactPage = new EventEmitter<string>();
   @Output() resumePage = new EventEmitter<string>();
   @Output() homePage = new EventEmitter<string>();
+  @Output() projectPage = new EventEmitter<string>();
   name: any = "Swati Trivedi";
 
   gotoContact() {
@@ -23,6 +24,9 @@ export class HeaderComponent {
 
   gotoHome() {
     this.homePage.emit('cancel');
+  }
+  gotoProject(){
+    this.projectPage.emit('cancel');
   }
 
 }
