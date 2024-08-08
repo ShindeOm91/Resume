@@ -12,7 +12,7 @@ export class HeaderComponent {
   @Output() resumePage = new EventEmitter<string>();
   @Output() homePage = new EventEmitter<string>();
   @Output() projectPage = new EventEmitter<string>();
-  name: any = "Swati Trivedi";
+  name: any = "Vaishnavi Kaushal";
 
   gotoContact() {
     this.contactPage.emit('cancel');

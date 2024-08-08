@@ -15,7 +15,7 @@ import { ProjectComponent } from "./project/project.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Swati_Resume';
+  title = 'Vaishnavi_Resume';
   contact: boolean = false;
   resume: boolean = false;
   home: boolean = true;
